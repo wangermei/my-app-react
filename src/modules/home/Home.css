@@ -1,0 +1,54 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+.welcome {
+  font-size: 35px;
+  padding: 100px 50px;
+  color: #ffffff;
+  background-color: #222222;
+  text-align: center;
+}
+
+.login{
+  margin: 30px auto;
+  width: 350px;
+  height: 250px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  box-shadow: 3px 3px 60px 5px #999999;
+}
+
+.login h3 {
+  text-align: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #999999;
+}
+
+.list {
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.login Form {
+  text-align: center;
+}
+
+.login Form div{
+  margin: 15px 0;
+}
+
+.list code {
+  background: #f7f7f7;
+}
