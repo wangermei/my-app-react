@@ -1,7 +1,7 @@
 import React from 'react'
 import './clock.css'
 
-class Clock extends React.Component{
+class Clock extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -33,12 +33,4 @@ class Clock extends React.Component{
   }
 }
 
-function tick() {
-  return(
-    <div>
-      <Clock />
-    </div>
-  )
-}
-
-export default tick;
+export default Clock;

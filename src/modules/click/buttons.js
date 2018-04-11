@@ -1,5 +1,5 @@
 import React from 'react'
-import './click.css'
+import './clicks.css'
 
 class ActionButton extends React.Component {
   constructor(props) {
@@ -7,16 +7,19 @@ class ActionButton extends React.Component {
     this.state = {
       isToggleOn: true
     }
+    this.handleClick = this.handleClick.bind(this)
   }
 
-  handeClick () {
-
+  handleClick () {
+    this.setState((prevState) => ({
+      isToggleOn: !prevState.isToggleOn
+    }))
   }
 
   render () {
     return(
       <div>
-        <button onClick={this.handeClick}>
+        <button onClick={this.handleClick}>
           { this.state.isToggleOn ? 'ON' : 'OFF' }
         </button>
       </div>

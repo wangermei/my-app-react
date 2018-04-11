@@ -1,8 +1,8 @@
 import React from 'react'
-import './click.css'
+import './clicks.css'
 
 function ActionLink() {
-  function handeClick(e) {
+  function handleClick(e) {
     e.preventDefault()
     console.log('this link is clicked!')
     alert('this link is clicked!')
@@ -10,7 +10,7 @@ function ActionLink() {
 
   return(
     <div>
-      <a href='#' onClick={handeClick}>Click me</a>
+      <a href='' onClick={handleClick}>Click me</a>
     </div>
   )
 }

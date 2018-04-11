@@ -1,0 +1,17 @@
+.controlLogin{
+    text-align: center;
+    margin: 20px auto;
+}
+.btn{
+    font-size: 20px;
+}
+
+.warn{
+    font-size: 28px;
+    background-color: red;
+    padding: 10px 0;
+}
+
+.warnBtn{
+    margin-top: 20px;
+}
