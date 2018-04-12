@@ -1,0 +1,24 @@
+.spit{
+  width: 100%;
+  height: 500px;
+}
+.spitLeft{
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+.spitRight{
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+.left {
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+}
+.right{
+  width: 100%;
+  height: 100%;
+  background-color: cornflowerblue;
+}

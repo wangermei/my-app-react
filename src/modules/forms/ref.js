@@ -9,7 +9,9 @@ export default class FileInput extends React.Component {
 
   handleSubmit (event) {
     event.preventDefault()
-    console.log('HHHHH')
+    // console.log(this.fileInput.files[0].name)
+    // alert(this.fileInput.files[0].name)
+    console.log(this.textInput.value)
   }
 
   render() {
@@ -17,7 +19,8 @@ export default class FileInput extends React.Component {
       <form onSubmit={this.handleSubmit}>
         <label>
           上传文件：
-          <input type='file' ref={input => {this.fileInput = input}}/>
+          {/*<input type='file' ref={(input) => {this.fileInput = input}}/>*/}
+          <input type='text' ref={(input) => {this.textInput = input}} />
         </label>
         <button type='submit'>提交文件</button>
       </form>

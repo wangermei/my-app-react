@@ -17,6 +17,12 @@ import Ref from '../modules/forms/ref'
 import MoreInput from '../modules/forms/moreInput'
 import Celsius from '../modules/stateUp/celsius'
 import Scale from '../modules/stateUp/scale'
+import Dialog from '../modules/composition/dialog'
+import Inheritance from '../modules/composition/inheritance'
+import ContextDialog from '../modules/composition/contextDialog'
+import GaoIndex from '../modules/gaoji/index'
+import Array from '../modules/gaoji/array'
+// import Error from '../modules/gaoji/error'
 
 export default class RouterConfig extends React.Component {
   render () {
@@ -40,6 +46,12 @@ export default class RouterConfig extends React.Component {
           <Route path='/moreInput' component={MoreInput} />
           <Route path='/celsius' component={Celsius} />
           <Route path='/scale' component={Scale} />
+          <Route path='/dialog' component={Dialog} />
+          <Route path='/inheritance' component={Inheritance} />
+          <Route path='/contextDialog' component={ContextDialog} />
+          <Route path='/gaoIndex' component={GaoIndex} />
+          <Route path='/array' component={Array} />
+          {/*<Route path='/error' component={Error} />*/}
         </div>
       </Router>
     );
