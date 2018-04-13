@@ -22,6 +22,7 @@ import Inheritance from '../modules/composition/inheritance'
 import ContextDialog from '../modules/composition/contextDialog'
 import GaoIndex from '../modules/gaoji/index'
 import Array from '../modules/gaoji/array'
+import ReduxIndex from '../modules/redux/reduxIndex'
 // import Error from '../modules/gaoji/error'
 
 export default class RouterConfig extends React.Component {
@@ -51,6 +52,7 @@ export default class RouterConfig extends React.Component {
           <Route path='/contextDialog' component={ContextDialog} />
           <Route path='/gaoIndex' component={GaoIndex} />
           <Route path='/array' component={Array} />
+          <Route path='/reduxIndex' component={ReduxIndex} />
           {/*<Route path='/error' component={Error} />*/}
         </div>
       </Router>
