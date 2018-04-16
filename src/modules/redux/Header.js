@@ -1,5 +1,6 @@
 import React from 'react'
 import TodoInputText from './TodoInputText'
+import './redux.css'
 
 export default class Header extends React.Component{
   render () {
@@ -13,7 +14,7 @@ export default class Header extends React.Component{
               this.props.addTodo(text)
             }
           }}
-          placeholder='please input you text'
+          placeholder='what needs to be done?'
         />
       </header>
     )

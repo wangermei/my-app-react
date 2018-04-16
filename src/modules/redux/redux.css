@@ -1,0 +1,57 @@
+
+.headerInput{
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px 50px;
+  box-shadow: 5px 5px 20px 5px #999999;
+}
+
+.inputText{
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  font-size: 20px;
+  color: #999999;
+  border-bottom: 1px solid #999999;
+}
+
+.displayList{
+  margin: 10px auto;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.displayList>ul>li{
+  list-style: none;
+  border-bottom: 1px solid #999999;
+  text-align: left;
+  padding: 10px 0;
+  font-size: 28px;
+}
+
+footer{
+  color: #999999;
+}
+
+footer span{
+  margin-right: 40px;
+}
+
+footer strong{
+  color: #222222;
+  padding-right: 10px;
+}
+
+.destroy{
+  float: right;
+}
+
+.selected{
+  display: inline-block;
+}
+
+.selected>li{
+  display: inline-block;
+  list-style: none;
+  padding: 0 10px;
+}

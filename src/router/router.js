@@ -23,6 +23,7 @@ import ContextDialog from '../modules/composition/contextDialog'
 import GaoIndex from '../modules/gaoji/index'
 import Array from '../modules/gaoji/array'
 import ReduxIndex from '../modules/redux/reduxIndex'
+// import TodoWithUndo from '../modules/todo-with-undo/TodoWithUndo'
 // import Error from '../modules/gaoji/error'
 
 export default class RouterConfig extends React.Component {
@@ -53,6 +54,7 @@ export default class RouterConfig extends React.Component {
           <Route path='/gaoIndex' component={GaoIndex} />
           <Route path='/array' component={Array} />
           <Route path='/reduxIndex' component={ReduxIndex} />
+          {/*<Route path='/todoWithUndo' component={TodoWithUndo} />*/}
           {/*<Route path='/error' component={Error} />*/}
         </div>
       </Router>

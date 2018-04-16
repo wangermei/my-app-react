@@ -20,7 +20,6 @@ export default class Header extends React.Component {
     if (!this.props.newTodo) {
       this.props.onSave(event.target.value)
     }
-    console.log(this.props.text)
   }
 
   bandleChange = event => {
@@ -44,6 +43,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <input
+        className={'inputText'}
         type='text'
         value={this.state.text}
         placeholder={this.props.placeholder}
