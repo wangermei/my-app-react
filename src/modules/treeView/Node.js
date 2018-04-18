@@ -48,7 +48,7 @@ export class Node extends React.Component {
         <ul>
           { childIds.map(this.renderChild) }
           <li key='add'>
-            <a href='' onClick={this.handleAddChildClick}></a>
+            <a href='' style={{ color: 'blue' }} onClick={this.handleAddChildClick}>Add Child</a>
           </li>
         </ul>
       </div>
