@@ -8,3 +8,16 @@ export const DELETE_TODO = 'DELETE_TODO'
 export const EDIT_TODO = 'EDIT_TODO'
 export const CLEAR_COMPLETED = 'CLEAR_COMPLETED'
 export const TOGGLE_TODO = 'TOGGLE_TODO'
+// shopping-cart
+export const RECEIVE_PRODUCTS = 'RECEIVE_PRODUCTS'
+export const ADD_TO_CART = 'ADD_TO_CART'
+export const CHECKOUT_REQUEST = 'CHECKOUT_REQUEST'
+export const CHECKOUT_SUCCESS = 'CHECKOUT_SUCCESS'
+export const CHECKOUT_FAILURE = 'CHECKOUT_FAILURE'
+
+// treeView
+export const INCREMENT = 'INCREMENT'
+export const CREATE_NODE = 'CREATE_NODE'
+export const DELETE_NODE = 'DELETE_NODE'
+export const ADD_CHILD = 'ADD_CHILD'
+export const REMOVE_CHILD = 'REMOVE_CHILD'
